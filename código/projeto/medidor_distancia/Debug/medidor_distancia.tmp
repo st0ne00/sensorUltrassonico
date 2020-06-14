@@ -1,0 +1,43 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\assembly\medidor_distancia\medidor_distancia\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.4.331\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\ATmega_DFP\1.4.331\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\assembly\medidor_distancia\medidor_distancia\Debug\medidor_distancia.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>medidor_distancia.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>medidor_distancia.map</FILE>
+  <FILE>medidor_distancia.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>106</LINE></start>
+  <MUL16x16><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>8</LINE></MUL16x16>
+  <DIV3216><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>38</LINE></DIV3216>
+  <LOOP><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>69</LINE></LOOP>
+  <DONE><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>92</LINE></DONE>
+  <SKIP><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>90</LINE></SKIP>
+  <delay10us><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>97</LINE></delay10us>
+  <topa><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>99</LINE></topa>
+  <disparar><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>115</LINE></disparar>
+  <increg><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>122</LINE></increg>
+  <ler_sensor><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>125</LINE></ler_sensor>
+  <calcular_pulso><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>138</LINE></calcular_pulso>
+  <addr18><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>135</LINE></addr18>
+  <calcular_ciclos><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>148</LINE></calcular_ciclos>
+  <calcular_tempo><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>170</LINE></calcular_tempo>
+  <calcular_distancia><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>178</LINE></calcular_distancia>
+  <L1><FILE>C:\assembly\medidor_distancia\medidor_distancia\main.asm</FILE><LINE>195</LINE></L1>
+ </LABELS>
+</ASSEMBLER_INFO>
