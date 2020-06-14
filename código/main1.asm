@@ -56,7 +56,7 @@ DONE:
 		ret
 
 
-calcular_distancia:			;distancia(cm) = (tempo(100us) * 34) / 20
+calcular_distancia:				;distancia(cm) = (tempo(100us) * 34) / 20
 	mov r16, r0				;byte 0 do tempo
 	mov r17, r1				;byte 1 do tempo 
 	ldi r18, 34
