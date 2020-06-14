@@ -1,5 +1,5 @@
 MUL16x16:
-		.DEF ZERO = R2              ;zero para operações com carry
+		.DEF ZERO = R2              ;zero para operaÃ§Ãµes com carry
 		.DEF   AL = R16             ;multiplicado (low)
 		.DEF   AH = R17				;multiplicado (high)
 
@@ -35,7 +35,7 @@ calcular_pulso:				;calculando comprimento de onda do pulso
 	in r16, pinc			
 	cpi r16, 0b00000000		;verificando se o pulso chegou ao final
 	breq calcular_ciclos
-	rjmp calcular_pulso		;enquanto o pulso não terminar, a função se repete
+	rjmp calcular_pulso		;enquanto o pulso nÃ£o terminar, a funÃ§Ã£o se repete
 
 
 calcular_tempo:				;ciclos / 1600 = tempo (centena de us)
@@ -43,5 +43,6 @@ calcular_tempo:				;ciclos / 1600 = tempo (centena de us)
 	ldi r17, 0b00000110		;high de 1600
 
 	call div3216			;tempo (centenas de us)
+
 
 
